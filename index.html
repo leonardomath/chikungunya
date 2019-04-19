@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <div class="grid-7 anuncio">
+            <h1>Chikungunya</h1>
+            <p>
+                Febre Chikungunya é uma doença parecida com a dengue, causada pelo vírus CHIKV, da família Togaviridae. Seu modo de transmissão é pela picada do mosquito Aedes aegypti
+            </p>
+            <a href="https://www.facebook.com/Chikungunya-1873286832955442/" class="btnSaiba" target="_blank">Saiba Mais</a>
+        </div>
+        <div class="grid-9 mosquito">
+            <img src="assets/imgs/musquito.png" alt="Musquito Chikungunya" width="900px">
+        </div>
+    </section>
+
+    <section class="sintomas-bg">
+        <div class="sintomas">
+        <div class="container">
+            <div class="grid-10 sintomas-info">
+                <h2>Sintomas</h2>
+                <ul>
+                    <li>
+                        <h3>Dores</h3>
+                        <p>Atrás dos olhos, nas articulações, no abdômen ou nos músculos</p>
+                    </li>
+                    <li>
+                        <h3>No corpo</h3>
+                        <p>Febre, calafrios, fadiga, febre alta, febre leve ou suor</p>
+                    </li>
+                    <li>
+                        <h3>Aparelho gastrointestinal</h3>
+                        <p>Náusea ou Vômito</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid-6 boneco">
+                <img src="assets/imgs/boneco.png" alt="boneco" width="450px;">
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <section class="diagnostico container">
+        <div class="grid-10">
+            <h2>Pre-diagnostico</h2>
+
+            <ul class="">
+                <li>
+                    <h4>Você sente dores fortes nas articulações?</h4>
+                    <button id="sintoma1t" onclick="recebeSintoma1true()" class="btnSim">Sim</button>
+                    <button id="sintoma1f" onclick="recebeSintoma1false()" class="btnNao">Não</button>
+                    <span id="check1" class="check"><i class="fas fa-check"></i></span>
+                </li>
+                <li>
+                    <h4>Frequentemente você fica com febre, calafrios, fadiga ou suor?</h4>
+                    <button id="sintoma2t" onclick="recebeSintoma2true()" class="btnSim">Sim</button>
+                    <button id="sintoma2f" onclick="recebeSintoma2false()" class="btnNao">Não</button>
+                    <span id="check2" class="check"> <i class="fas fa-check"></i></span>
+                </li>
+                <li>
+                    <h4>Ja esteve com náuseas ou vômitos</h4>
+                    <button id="sintoma3t" onclick="recebeSintoma3true()" class="btnSim">Sim</button>
+                    <button id="sintoma3f" onclick="recebeSintoma3false()" class="btnNao">Não</button>
+                    <span id="check3" class="check"> <i class="fas fa-check"></i></span>
+                </li>
+                <button onclick="resultadoSintoma()" class="Btnresultado">Obter resultado</button>
+            </ul>
+        </div>
+
+        <div class="grid-6">
+            <img src="assets/imgs/medico.png" alt="ferramenta doutor" width="500px;">
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="grid-10">
+                <h4>Todos os direitos reservados</h4>
+            </div>
+            <div class="grid-6 social">
+                <a href="https://www.facebook.com/Chikungunya-1873286832955442/" target="_blank"><img src="assets/imgs/facebook.png" alt="facebook" width="32px"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/sintomas.js"></script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+body {
+    overflow-x: hidden;
+}
+
+
+h3 {
+    font-family: Helvetica,Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Anúncio */
+
+.anuncio {
+    margin-top: 300px;
+   
+}
+
+.anuncio h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 72px;
+    letter-spacing: 50;
+    color: #18171c;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.anuncio h1::before {
+    content: "";
+    width: 300px;
+    height: 6px;
+    background: #a00c24;
+    display: block;
+    position: relative;
+    top: 170px;
+    left: -200px;
+    transform: rotate(90deg);
+}
+
+.anuncio p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #18171c;
+    margin-bottom: 40px;
+}
+
+.btnSaiba {
+    background: #a00c24;
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    padding: 20px 40px;
+    font-weight: bold;
+    letter-spacing: 50;
+    font-family:  Helvetica,Arial, sans-serif;
+}
+
+.mosquito {
+    margin-top: 200px;
+}
+
+/* Sintomas */
+
+.sintomas-bg {
+    
+    height: 500px; width: 100%;
+   
+    margin: auto;
+    overflow: hidden;
+}
+
+.sintomas {
+    display: block;
+  background:#a00c24;
+  height: 700px;
+  width: 150%;
+  position: absolute;
+  top: 950px; left: -25%;
+  transform: rotate(10deg);
+}
+
+.sintomas-full {
+    transform: rotate(10deg);
+   
+    margin-top: 200px;
+    width: 100%;
+    background: #a00c24;
+    height: 650px;
+}
+
+.sintomas-info {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    transform: rotate(-10deg);
+}
+
+.sintomas-info h2 {
+    font-size: 60px;
+
+}
+
+.sintomas-info h2::after {
+    content: "";
+    display: block;
+    width: 240px;
+    height: 6px;
+    background: #fff;
+    margin: 5px 0;
+    z-index: 2;
+}
+
+.sintomas-info ul li {
+    margin-top: 20px;
+
+}
+
+.sintomas-info h3 {
+    color: #fff;
+    font-size: 36px;
+}
+.sintomas-info p {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.boneco {
+    margin-top: -150px;
+    transform: rotate(-10deg);
+}
+
+/* Pré-Diagnostico */
+
+.diagnostico {
+    margin-top: 800px;
+    margin-bottom: 200px;
+}
+
+.diagnostico h2 {
+    color: #18171c;
+}
+
+.diagnostico h2::after {
+    content: "";
+    display: block;
+    width: 240px;
+    height: 6px;
+    background: #000;
+    margin: 5px 0;
+    z-index: 2;
+}
+
+.diagnostico ul {
+    margin-top: 50px;
+}
+
+.diagnostico ul li h4 {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.diagnostico ul li {
+    margin-top: 20px;
+}
+
+.btnSim {
+    width: 120px;
+    height: 40px;
+    background: #a00c24;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Helvetica,Arial, sans-serif;
+    letter-spacing: 50;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.btnNao {
+    width: 120px;
+    height: 40px;
+    background: #3d4252;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Helvetica,Arial, sans-serif;
+    letter-spacing: 50;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.Btnresultado {
+    border: none;
+    background: transparent;
+    color: #a00c24;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.Btnresultado:hover {
+    color: #18171c;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height:70px;
+    background: #a00c24;
+}
+
+.social {
+    padding-top: 5px;
+    text-align: right;
+}
+
+footer  h4 {
+    line-height: 70px;
+    color: #fff;
+}
+
+
+footer .container img {
+    padding: 15px 0;
+}
+
+.check {
+    display: none;
+}
+
+.check i {
+    margin-left: 5px;
+    color: green;
+}
